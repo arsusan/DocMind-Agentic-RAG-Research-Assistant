@@ -1,6 +1,6 @@
 # 📄 DocMind — Agentic RAG Research Assistant
 
-**Live demo:** [https://docmind-rag.streamlit.app](https://docmind-rag.streamlit.app) _(replace with your actual deployed URL)_
+**Live demo:** https://docmind-agentic-rag-research-assistant-nwvgyxpbacrjcfnyvjkwvj.streamlit.app/
 
 DocMind is a research assistant that answers questions about your uploaded documents. Unlike a standard RAG (Retrieval-Augmented Generation) pipeline, which searches the knowledge base on _every_ query regardless of need, DocMind uses a **LangGraph agent** that decides for itself — per question — whether a document search is actually necessary. If you ask something general, it just answers. If you ask something the documents can help with, it retrieves the relevant chunks from a live Postgres vector database and grounds its answer in them, citing the source file.
 
