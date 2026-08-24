@@ -61,7 +61,7 @@ User question ──▶ ┌─────────────────�
 | --------------- | ------------------------------------------------------------- | ------------------------------------------- |
 | Vector database | [Supabase](https://supabase.com) (Postgres + `pgvector`)      | Live, hosted, free tier                     |
 | Embeddings      | `sentence-transformers` (`all-MiniLM-L6-v2`)                  | Runs locally, no API key needed, 384-dim    |
-| LLM             | [Groq](https://console.groq.com) (`llama-3.3-70b-versatile`)  | Free tier, fast inference                   |
+| LLM             | [Groq](https://console.groq.com) (`openai/gpt-oss-20b`)  | Free tier, fast inference                   |
 | Orchestration   | [LangGraph](https://github.com/langchain-ai/langgraph)        | Conditional agent graph, not a linear chain |
 | UI + hosting    | [Streamlit](https://streamlit.io) + Streamlit Community Cloud | Free live deployment                        |
 
