@@ -1,0 +1,39 @@
+# Environment Variables & Secrets (CRITICAL)
+.env
+*.env
+.env.*
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache & Build Artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyo
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Local AI Tooling & Agent Workspaces
+.agents/
+.claude/
+.cline/
+
+# Streamlit Local Configurations
+.streamlit/secrets.toml
+
+# IDE & Code Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS System Files
+.DS_Store
+Thumbs.db
