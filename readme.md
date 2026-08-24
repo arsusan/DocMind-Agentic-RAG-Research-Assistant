@@ -98,8 +98,8 @@ docmind-rag/
 ### 1. Clone and set up
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/docmind-rag.git
-cd docmind-rag
+git clone https://github.com/arsusan/DocMind-Agentic-RAG-Research-Assistant.git
+cd DocMind-Agentic-RAG-Research-Assistant
 python3 -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
